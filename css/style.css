@@ -1,0 +1,656 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.925);
+  border-bottom: 1px solid black;
+  align-items: center;
+  width: 100%;
+  grid-area: header;
+}
+header .navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0;
+}
+header li {
+  margin-left: 120px;
+}
+header li:hover {
+  background-color: rgba(156, 156, 156, 0.2);
+  font-size: 45px;
+}
+header ul {
+  font-size: 40px;
+}
+header .containerImgHeader {
+  width: 9%;
+}
+header .containerImgHeader a {
+  width: auto;
+  height: auto;
+}
+header .containerImgHeader img {
+  width: auto;
+  height: auto;
+}
+
+.containerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  width: 80%;
+  margin: 30px;
+  margin-top: 75px;
+}
+
+.categoriasTop {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.containerCard {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section div h2 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+section div h2 a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+section div h2 a:hover {
+  border: rgba(0, 0, 0, 0.322) solid 5px;
+  border-radius: 10px;
+  padding: 2px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.imgpage1index {
+  padding-left: 13px;
+}
+
+.imgpage2index {
+  padding-left: 5px;
+}
+
+.imgpage3index {
+  padding-left: 25px;
+}
+
+.footer1 {
+  background-color: black;
+}
+
+.footerH2 {
+  color: white;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.containerfooter {
+  display: flex;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.footerHyperx {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.hyperxArg {
+  text-align: end;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10% 80% 10%;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+}
+
+.container-grids-header {
+  background-color: rgba(255, 255, 255, 0.925);
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  grid-area: header;
+}
+.container-grids-header .headerIcon-page2 {
+  margin: 0;
+  display: flex;
+}
+
+.navBar-page2 {
+  display: flex;
+  margin-left: 80px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style: none;
+  font-size: 40px;
+  margin: 20px;
+}
+.navBar-page2 .navBar-page2 a:hover {
+  background-color: rgba(70, 70, 70, 0.4039215686);
+  font-size: 35px;
+}
+
+.navBar-page2 li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+main {
+  grid-area: main;
+}
+
+.seccionMasVendido1 {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.h2MasVendidos1 {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.p1-page2 {
+  font-weight: bold;
+  font-size: 45px;
+  margin: 20px;
+  margin-left: 170px;
+  text-align: start;
+}
+
+.h3cloud {
+  margin-left: 170px;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+.boton {
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+.boton-clase {
+  background: #ff0000;
+  border: 1px solid #556699;
+  border-radius: 8px;
+  box-shadow: 0 1px #444444;
+  padding: 10px 25px;
+  color: #ffffff;
+  font: normal bold 28px/1 "Roboto", sans-serif;
+}
+
+.a-page2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.a-page2:hover {
+  color: black;
+  text-transform: uppercase;
+}
+
+.imgpage2 {
+  margin-top: 50px;
+}
+
+.seccionMasVendido2 {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 80px;
+}
+
+.containerArticle2Page2 {
+  margin-right: 60px;
+}
+
+.h2MasVendidos2 {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p2-page2 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.h3a-page2 {
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.boton2 {
+  text-transform: lowercase;
+}
+
+.container-grids-footer {
+  grid-area: footer;
+}
+
+.containerGaleria {
+  display: flex;
+  margin: 20px;
+  margin-top: 5%;
+  border: 3px solid rgba(0, 0, 0, 0.24);
+  border-radius: 30px;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+.navBarP3 {
+  width: 100%;
+  font-size: 12px;
+}
+
+.navBarP3 li {
+  padding-left: 120px;
+}
+
+.cardpage2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.171);
+  border-top: 2px solid rgba(0, 0, 0, 0.171);
+}
+
+.h2Galeria {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pGaleria {
+  font-size: 20px;
+}
+
+.h4Galeria {
+  background-color: #D9D9D9;
+  width: 249px;
+}
+
+.h3P3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.section2Galeria {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.section2-page3 {
+  margin-bottom: 60px;
+  margin-top: 140px;
+}
+
+.imgGaleria {
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 8%;
+}
+
+.containerGaleria div a {
+  text-decoration: none;
+  color: black;
+}
+
+.containerVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerVideo iframe {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 98%;
+  height: 50vh;
+}
+
+.h1Page4 {
+  margin-left: 20px;
+}
+
+.pPage4 {
+  margin: 20px;
+  margin-bottom: 45px;
+}
+
+.containerMainContacto {
+  margin-top: 57px;
+  margin-bottom: 75px;
+}
+
+.input-contacto {
+  margin-bottom: 20px;
+}
+
+.button5 {
+  text-transform: uppercase;
+  margin-left: 20px;
+  background: #ff0000;
+  border: 1px solid #556699;
+  border-radius: 8px;
+  box-shadow: 0 1px #444444;
+  padding: 10px 35px;
+  color: #ffffff;
+  font: normal bold 14px/1 "Roboto", sans-serif;
+}
+
+.h2Contacto {
+  margin-left: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 36px;
+}
+
+.iframeContacto iframe {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  header li {
+    margin-left: 15px;
+  }
+  .containerCard {
+    flex-direction: column;
+  }
+  .imgpage1index, .imgpage2index, .imgpage3index {
+    padding: 0;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  .containerfooter {
+    flex-direction: column;
+  }
+  .footerHyperx {
+    justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  header ul {
+    font-size: 28px;
+  }
+  .containerCard {
+    flex-direction: column;
+  }
+  .imgpage1index, .imgpage2index, .imgpage3index {
+    margin-left: 23%;
+  }
+  .containerfooter {
+    flex-direction: column;
+  }
+  .footerHyperx {
+    justify-content: center;
+  }
+  .footerH2 {
+    margin-left: 0px;
+  }
+  .redes {
+    width: 100%;
+  }
+}
+@media (max-width: 1750px) {
+  .nav-item {
+    margin-left: 0;
+  }
+  .navBar-page2 {
+    margin: 0;
+    font-size: 25px;
+    gap: 30px;
+    padding-left: 38px;
+  }
+}
+@media (max-width: 992px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: "header header" "main main" "footer footer";
+  }
+  header li {
+    margin-left: 4px;
+    font-size: 28px;
+    margin-top: 4px;
+  }
+  .seccionMasVendido1 {
+    width: 100%;
+    height: 80vh;
+  }
+  .div-masvendidos {
+    height: 50vh;
+  }
+  .h2MasVendidos1 {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    margin-top: 30px;
+    margin-left: 35px;
+    padding-bottom: 20px;
+  }
+  .p1-page2 {
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 34px;
+  }
+  .h3cloud {
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 35px;
+  }
+  .boton {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .h2MasVendidos2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 65px;
+    margin-bottom: 20px;
+  }
+  .p2-page2 {
+    font-size: 30px;
+    width: 400px;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 768px) {
+  /*576px*/
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .seccionMasVendido1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .div-masvendidos {
+    height: 50vh;
+    width: 100%;
+  }
+  .div-masvendidos {
+    order: 2;
+  }
+  .imgpage2 {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 7%;
+  }
+  .h2MasVendidos1 {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .p1-page2 {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .h3cloud {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .boton {
+    margin: 0;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+  }
+  .boton-clase {
+    margin: 0;
+    padding: 0;
+    margin-left: 2px;
+    margin-top: 30px;
+    width: 125px;
+    height: 35px;
+    font-size: 28px;
+  }
+  .containerImgPage2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .h2MasVendidos2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .p2-page2 {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .h3a-page2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .boton2 {
+    margin-top: 2px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .containerArticle2Page2 {
+    margin-right: 7px;
+  }
+  .img-section1-page2 {
+    width: 60%;
+  }
+  .img2-section1-page2 {
+    width: 60%;
+    padding-left: 7%;
+  }
+  .container-masvendidos {
+    width: 100%;
+  }
+  .seccionMasVendido2 {
+    flex-direction: column;
+    margin-bottom: 21%;
+    margin-top: 10%;
+  }
+  .seccionMasVendido2 .h2MasVendidos2, .seccionMasVendido2 .p2-page2, .seccionMasVendido2 .h3a-page2 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .containerGaleria {
+    flex-direction: column;
+  }
+  .containerGaleria .cardpage2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerGaleria .containerGaleria div a {
+    width: 249px;
+  }
+}
+@media (max-width: 1750px) {
+  header .containerImgHeader {
+    width: 19%;
+  }
+  header ul {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

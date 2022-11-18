@@ -1,0 +1,32 @@
+header{
+    background-color: rgba(255, 255, 255, 0.925);
+    border-bottom: 1px solid black;
+    align-items: center;
+    width: 100%;
+    grid-area: header;
+    .navbar{
+        --bs-navbar-padding-x: 0;
+        --bs-navbar-padding-y: 0;
+    }
+    li{
+        margin-left: 120px;
+    }
+    li:hover{
+        background-color: #9c9c9c33;
+        font-size: 45px;
+    }
+    ul{
+        font-size: 40px;
+    }
+    .containerImgHeader{
+        width: 9%;
+        & a{
+            width: auto;
+            height: auto;
+        }
+        & img{
+            width: auto;
+            height: auto;
+        }
+    }
+}

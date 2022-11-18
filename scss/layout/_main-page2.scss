@@ -1,0 +1,81 @@
+main{
+    grid-area: main;
+}
+.seccionMasVendido1{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.h2MasVendidos1{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.p1-page2{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 20px;
+    margin-left: 170px;
+    text-align: start;
+}
+.h3cloud{
+    margin-left: 170px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+.boton{
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.boton-clase{
+    background:    #ff0000;
+    border:        1px solid #556699;
+    border-radius: 8px;
+    box-shadow:    0 1px #444444;
+    padding:       10px 25px;
+    color:         #ffffff;
+    font:          normal bold 28px/1 "Roboto", sans-serif;
+}
+.a-page2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.a-page2:hover {
+    color: black;
+    text-transform: uppercase;
+}
+.imgpage2{
+    margin-top: 50px;
+}
+.seccionMasVendido2{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 80px;
+
+}
+.containerArticle2Page2{
+    margin-right: 60px;
+}
+.h2MasVendidos2{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.p2-page2{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.h3a-page2{
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.boton2{
+    text-transform: lowercase;
+}

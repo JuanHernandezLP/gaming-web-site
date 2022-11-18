@@ -1,0 +1,14 @@
+@media (max-width:576px){
+    header li {
+        margin-left: 15px;}
+    .containerCard {
+            flex-direction: column;}
+    .imgpage1index,.imgpage2index,.imgpage3index{
+            padding: 0;
+            margin-left: 35%;
+            margin-top: 10%;}
+    .containerfooter{
+        flex-direction: column;}
+    .footerHyperx {
+        justify-content: center;}
+}
